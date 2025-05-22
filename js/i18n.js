@@ -47,20 +47,73 @@ function applyTranslations() {
   const elements = document.querySelectorAll('[data-i18n]');
   elements.forEach(element => {
     const key = element.getAttribute('data-i18n');
-    if (translations[currentLanguage][key]) {
-      element.innerHTML = translations[currentLanguage][key];
+    const translation = getTranslation(key);
+    
+    if (translation) {
+      // Check if element is an input with placeholder
+      if (element.tagName === 'INPUT' && element.hasAttribute('placeholder')) {
+        element.placeholder = translation;
+      } 
+      // Check if element is a button or input with value
+      else if ((element.tagName === 'BUTTON' || element.tagName === 'INPUT') && element.hasAttribute('value')) {
+        element.value = translation;
+      }
+      // For all other elements, update the inner HTML
+      else {
+        element.innerHTML = translation;
+      }
     }
   });
 }
 
+// Get a translation value from the nested structure
+function getTranslation(key) {
+  if (!translations[currentLanguage]) {
+    return null;
+  }
+  
+  // Handle flat keys (backward compatibility)
+  if (translations[currentLanguage][key]) {
+    return translations[currentLanguage][key];
+  }
+  
+  // Handle nested keys
+  const parts = key.split('.');
+  let current = translations[currentLanguage];
+  
+  for (const part of parts) {
+    if (current[part] === undefined) {
+      return null;
+    }
+    current = current[part];
+  }
+  
+  return typeof current === 'string' ? current : null;
+}
+
 // Switch language
-function switchLanguage(lang) {
+async function switchLanguage(lang) {
   if (lang !== currentLanguage && (lang === 'en' || lang === 'fr')) {
     currentLanguage = lang;
     localStorage.setItem('language', lang);
     
-    // Reload translations and apply them
-    initI18n();
+    // Load translations if not already loaded
+    if (Object.keys(translations[lang]).length === 0) {
+      try {
+        const response = await fetch(`/i18n/${lang}.json`);
+        if (response.ok) {
+          translations[lang] = await response.json();
+        } else {
+          console.error(`Failed to load ${lang} translations`);
+        }
+      } catch (error) {
+        console.error(`Error loading ${lang} translations:`, error);
+      }
+    }
+    
+    // Apply translations and update UI
+    applyTranslations();
+    updateLanguageSwitcher();
   }
 }
 

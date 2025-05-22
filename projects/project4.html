@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Library App | Darryl Jordan</title>
+  <title data-i18n="general.header.header_title">Library App | Darryl Jordan</title>
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="../css/project.css" />
 </head>
 <body>
   <header>
-    <h1>Darryl Jordan</h1>
-    <p>DevOps Engineer | Automation | Cloud | Monitoring</p>
+    <h1 data-i18n="general.header.header_title">Darryl Jordan</h1>
+    <p data-i18n="general.header.header_subtitle">DevOps Engineer | Automation | Cloud | Monitoring</p>
     <div class="header-container">
       <nav>
-        <a href="../index.html" data-i18n="nav_home">Home</a>
-        <a href="../about.html" data-i18n="nav_about">About</a>
-        <a href="../contact.html" data-i18n="nav_contact">Contact</a>
+        <a href="../index.html" data-i18n="general.navigation.nav_home">Home</a>
+        <a href="../about.html" data-i18n="general.navigation.nav_about">About</a>
+        <a href="../contact.html" data-i18n="general.navigation.nav_contact">Contact</a>
       </nav>
       <div class="language-switcher">
         <button data-lang="en" onclick="i18n.switchLanguage('en')" class="active">EN</button>
@@ -26,57 +26,57 @@
   </header>
 
   <main class="project-detail">
-    <h2 data-i18n="project4_title">Library App</h2>
+    <h2 data-i18n="project4.title">Library App</h2>
     
-    <p data-i18n="project4_description">The Library App is a full-stack web application I'm developing to modernize the management of a private book collection. This project showcases my end-to-end development capabilities, as I'm solely responsible for all aspects from design and architecture to implementation and deployment.</p>
+    <p data-i18n="project4.description">The Library App is a full-stack web application I'm developing to modernize the management of a private book collection. This project showcases my end-to-end development capabilities, as I'm solely responsible for all aspects from design and architecture to implementation and deployment.</p>
     
-    <p>While the application is being developed for a specific client and contains some copyrighted resources (preventing public access), this project demonstrates my ability to create complete, production-ready applications using modern web technologies.</p>
+    <p data-i18n="project4.context">While the application is being developed for a specific client and contains some copyrighted resources (preventing public access), this project demonstrates my ability to create complete, production-ready applications using modern web technologies.</p>
 
-    <h3>Technical Challenges & Solutions</h3>
-    <p>This project presented several interesting technical challenges:</p>
+    <h3 data-i18n="project4.challenges.title">Technical Challenges & Solutions</h3>
+    <p data-i18n="project4.challenges.description">This project presented several interesting technical challenges:</p>
     <ul>
-      <li><strong>Complex Data Relationships:</strong> The library catalog required handling complex relationships between books, authors, categories, and user interactions. I designed a normalized database schema with efficient queries to manage these relationships.</li>
-      <li><strong>Search Functionality:</strong> Users needed powerful search capabilities across multiple fields with relevance ranking. I implemented an advanced search system with filters, facets, and full-text search capabilities.</li>
-      <li><strong>Responsive UI:</strong> The application needed to work seamlessly across devices. I built a responsive React frontend with a mobile-first approach, ensuring a consistent user experience from smartphones to desktops.</li>
-      <li><strong>Authentication & Authorization:</strong> Different user roles required different access levels. I implemented a JWT-based authentication system with role-based access controls.</li>
+      <li data-i18n="project4.challenges.items.Complex_Data_Relationships"><strong>Complex Data Relationships:</strong>The library catalog required handling complex relationships between books, authors, categories, and user interactions. I designed a normalized database schema with efficient queries to manage these relationships.</li>
+      <li data-i18n="project4.challenges.items.Search_Func"><strong>Search Functionality:</strong>Users needed powerful search capabilities across multiple fields with relevance ranking. I implemented an advanced search system with filters, facets, and full-text search capabilities.</li>
+      <li data-i18n="project4.challenges.items.Responsive_UI"><strong>Responsive UI:</strong>The application needed to work seamlessly across devices. I built a responsive React frontend with a mobile-first approach, ensuring a consistent user experience from smartphones to desktops.</li>
+      <li data-i18n="project4.challenges.items.Authentication_Authorization"><strong>Authentication & Authorization:</strong>Different user roles required different access levels. I implemented a JWT-based authentication system with role-based access controls.</li>
     </ul>
 
-    <h3>Technologies Used</h3>
+    <h3 data-i18n="project4.technologies.heading">Technologies Used</h3>
     <ul>
-      <li><strong>Frontend:</strong> React.js with hooks, context API for state management, and styled-components for styling</li>
-      <li><strong>Backend:</strong> Node.js with Express, creating RESTful APIs and middleware for business logic</li>
-      <li><strong>Database:</strong> PostgreSQL for flexible document storage, with Sequelize for schema validation</li>
-      <li><strong>Authentication:</strong> JWT-based authentication with secure cookie storage and refresh token rotation</li>
-      <li><strong>Testing:</strong> Jest for unit tests, React Testing Library for component tests, and Cypress for E2E testing</li>
-      <li><strong>Deployment:</strong> Docker containers with CI/CD pipeline for automated testing and deployment</li>
+      <li data-i18n="project4.technologies.tags.1"></li>
+      <li data-i18n="project4.technologies.tags.2"></li>
+      <li data-i18n="project4.technologies.tags.3"></li>
+      <li data-i18n="project4.technologies.tags.4"></li>
+      <li data-i18n="project4.technologies.tags.5"></li>
+      <li data-i18n="project4.technologies.tags.6"></li>
     </ul>
 
-    <h3>Key Features</h3>
+    <h3 data-i18n="project4.features.title">Key Features</h3>
     <ul>
-      <li><strong>Catalog Management:</strong> Comprehensive system for adding, editing, and organizing books with metadata</li>
-      <li><strong>User Management:</strong> Role-based access control with different permissions for administrators and regular users</li>
-      <li><strong>Lending System:</strong> Digital tracking of book borrowing with due dates, notifications, and history</li>
-      <li><strong>Advanced Search:</strong> Multi-faceted search with filters for genres, authors, publication dates, and availability</li>
-      <li><strong>Analytics Dashboard:</strong> Visual reports on collection composition, popular books, and lending patterns</li>
-      <li><strong>Mobile Responsiveness:</strong> Optimized experience across all device sizes</li>
+      <li data-i18n="project4.features.items.1"></li>
+      <li data-i18n="project4.features.items.2"></li>
+      <li data-i18n="project4.features.items.3"></li>
+      <li data-i18n="project4.features.items.4"></li>
+      <li data-i18n="project4.features.items.5"></li>
+      <li data-i18n="project4.features.items.6"></li>
     </ul>
 
-    <h3>Development Approach</h3>
-    <p>As the sole developer on this project, I implemented a structured development approach:</p>
+    <h3 data-i18n="project4.approach.title">Development Approach</h3>
+    <p data-i18n="project4.approach.description">As the sole developer on this project, I implemented a structured development approach:</p>
     <ul>
-      <li>Started with detailed requirements gathering and user story mapping</li>
-      <li>Developed the backend and frontend in parallel, using feature branches and incremental delivery</li>
-      <li>Implemented automated testing at multiple levels to ensure quality</li>
-      <li>Established a CI/CD pipeline for consistent, reliable deployments</li>
+      <li data-i18n="project4.approach.items.1"></li>
+      <li data-i18n="project4.approach.items.2"></li>
+      <li data-i18n="project4.approach.items.3"></li>
+      <li data-i18n="project4.approach.items.4"></li>
     </ul>
     
-    <p>This ongoing project showcases my full-stack development capabilities and my ability to independently deliver a complete, production-quality application that solves real business needs. It equally shows my ability to adapt to new technologies and frameworks.</p>
+    <p data-i18n="project4.project_impact"></p>
     
-    <a href="../index.html" class="back-button">&larr; Back to Projects</a>
+    <a href="../index.html" class="back-button" data-i18n="general.navigation.back_to_home">&larr; Back to Projects</a>
   </main>
 
   <footer>
-    <p data-i18n="footer_copyright">&copy; 2025 Darryl Jordan</p>
+    <p data-i18n="general.footer.footer_copyright">&copy; 2025 Darryl Jordan</p>
   </footer>
   <script src="../js/main.js"></script>
   <script src="../js/i18n.js"></script>

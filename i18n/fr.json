@@ -1,110 +1,273 @@
 {
-  "nav_home": "Accueil",
-  "nav_about": "À propos",
-  "nav_projects": "Projets",
-  "nav_contact": "Contact",
+  "general": {
+    "navigation": {
+      "nav_home": "Accueil",
+      "nav_about": "À propos",
+      "nav_projects": "Projets",
+      "nav_contact": "Contact"
+    },
+    "language": {
+      "language_en": "Anglais",
+      "language_fr": "Français"
+    },
+    "header": {
+      "header_title": "Kemgne Nasah Darryl Jordan",
+      "header_subtitle": "Ingénieur DevOps | Automatisation | Cloud | Monitoring"
+    },
+    "footer": {
+      "footer_copyright": "© 2025 Darryl Jordan"
+    }
+  },
   
-  "hero_welcome": "Bienvenue !",
-  "hero_intro": "Je suis Darryl, un ingénieur DevOps passionné par les infrastructures résilientes, le CI/CD, les systèmes distribués et l'automatisation. Voici mon portfolio que j'ai développé à partir de zéro pour mettre en valeur mes compétences et mon expérience.",
+  "home": {
+    "hero": {
+      "hero_welcome": "Bienvenue !",
+      "hero_intro": "Je suis Darryl, un ingénieur DevOps passionné par les infrastructures résilientes, le CI/CD, les systèmes distribués et l'automatisation. Voici mon portfolio que j'ai développé à partir de zéro pour mettre en valeur mes compétences et mon expérience."
+    },
+    "projects": {
+      "projects_title": "Projets",
+      "project1_title": "Plateforme Nutriboard",
+      "project1_desc": "Déploiement cloud, pipelines CI/CD, surveillance pour une plateforme de santé.",
+      "project2_title": "Automatisation de Tests 5G",
+      "project2_desc": "Bibliothèques Python pour les tests de télécommunications et l'automatisation avec RobotFramework.",
+      "project3_title": "Déploiement Automatisé de Ressources AWS avec Terraform",
+      "project3_desc": "Utilisation de Terraform pour automatiser le déploiement de ressources sur AWS. Modules pour EC2, RDS, S3, VPC, Groupes de Sécurité et rôles IAM.",
+      "project4_title": "Application de Bibliothèque",
+      "project4_desc": "Application de bibliothèque construite avec React et Node.js."
+    }
+  },
   
-  "projects_title": "Projets",
-  "project1_title": "Plateforme Nutriboard",
-  "project1_desc": "Déploiement cloud, pipelines CI/CD, surveillance pour une plateforme de santé.",
-  "project2_title": "Automatisation de Tests 5G",
-  "project2_desc": "Bibliothèques Python pour les tests de télécommunications et l'automatisation avec RobotFramework.",
-  "project3_title": "Déploiement Automatisé de Ressources AWS avec Terraform",
-  "project3_desc": "Utilisation de Terraform pour automatiser le déploiement de ressources sur AWS. Modules pour EC2, RDS, S3, VPC, Groupes de Sécurité et rôles IAM.",
-  "project4_title": "Application de Bibliothèque",
-  "project4_desc": "Application de bibliothèque construite avec React et Node.js.",
+  "about": {
+    "intro": {
+      "about_title": "À Propos de Moi",
+      "about_intro": "Je suis un ingénieur DevOps polyvalent et développeur Full-Stack passionné par la construction de systèmes évolutifs et résilients. Avec une expertise couvrant l'infrastructure cloud, l'automatisation et le développement logiciel, je fais le pont entre le développement et les opérations pour fournir des solutions efficaces et fiables.",
+      "about_approach": "Mon approche combine l'excellence technique avec un accent sur les résultats commerciaux. Que ce soit en optimisant les pipelines CI/CD, en implémentant l'infrastructure en tant que code, ou en développant des applications full-stack, je livre des solutions à la fois techniquement solides et alignées avec les objectifs organisationnels."
+    },
+    "education": {
+      "education_title": "Formation",
+      "education1_degree": "Diplôme d'Ingénieur en Informatique",
+      "education1_school": "Polytech Grenoble France • 2021-2024",
+      "education1_desc": "Diplôme d'ingénieur en informatique. Spécialisation en réseaux et systèmes informatiques.",
+      "education2_degree": "Classes préparatoires",
+      "education2_school": "Institut Universitaire de la Côte Cameroun • 2019-2021",
+      "education2_desc": "Classes préparatoires pour un diplôme d'ingénieur général. Décision ultérieure de se spécialiser en informatique.",
+      "education3_degree": "Baccalauréat GCE Camerounais",
+      "education3_school": "Collège Bilingue Saint Paul Bafang Cameroun 2018-2019",
+      "education3_desc": "Baccalauréat en Mathématiques, Physique, Chimie. Diplômé avec mention."
+    },
+    "certifications": {
+      "cert_title": "Certifications",
+      "cert1_name": "AWS Solutions Architect Associate",
+      "cert1_date": "Délivré en 2025",
+      "cert2_name": "HashiCorp Terraform Associate",
+      "cert2_date": "Délivré en 2025",
+      "cert3_name": "Microsoft Azure Fundamentals",
+      "cert3_date": "Délivré en 2025"
+    },
+    "skills": {
+      "skills_title": "Compétences Technique",
+      "skills_cloud": "Cloud & Infrastructure",
+      "skills_devops": "DevOps & Automatisation",
+      "skills_dev": "Développement"
+    },
+    "approach": {
+      "approach_title": "Mon Approche",
+      "approach1_title": "L'Automatisation d'Abord",
+      "approach1_desc": "Je crois en l'automatisation de tout ce qui est possible, de l'approvisionnement d'infrastructure aux tests et au déploiement. Cela réduit les erreurs humaines, augmente la fiabilité et libère du temps pour l'innovation.",
+      "approach2_title": "Sécurité par Conception",
+      "approach2_desc": "La sécurité n'est pas une réflexion après coup dans mon travail. J'intègre les meilleures pratiques de sécurité tout au long du cycle de vie du développement, de la conception de l'infrastructure à l'implémentation du code.",
+      "approach3_title": "Apprentissage Continu",
+      "approach3_desc": "Le paysage technologique évolue rapidement. Je reste à jour avec les technologies émergentes et les meilleures pratiques, en élargissant continuellement mes compétences pour fournir des solutions de pointe."
+    },
+    "social": {
+      "connect_title": "Connectez-Vous Avec Moi",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
   
-  "about_title": "À Propos de Moi",
-  "about_intro": "Je suis un ingénieur DevOps polyvalent et développeur Full-Stack passionné par la construction de systèmes évolutifs et résilients. Avec une expertise couvrant l'infrastructure cloud, l'automatisation et le développement logiciel, je fais le pont entre le développement et les opérations pour fournir des solutions efficaces et fiables.",
-  "about_approach": "Mon approche combine l'excellence technique avec un accent sur les résultats commerciaux. Que ce soit en optimisant les pipelines CI/CD, en implémentant l'infrastructure en tant que code, ou en développant des applications full-stack, je livre des solutions à la fois techniquement solides et alignées avec les objectifs organisationnels.",
+  "contact": {
+    "contact_title": "Contactez-Moi",
+    "contact_text": "Pour toute demande ou question, n'hésitez pas à me contacter à"
+  },
   
-  "education_title": "Formation",
-  "education1_degree": "Diplôme d'Ingénieur en Informatique",
-  "education1_school": "Polytech Grenoble France • 2021-2024",
-  "education1_desc": "Diplôme d'ingénieur en informatique. Spécialisation en réseaux et systèmes informatiques.",
-  "education2_degree": "Classes préparatoires",
-  "education2_school": "Institut Universitaire de la Côte Cameroun • 2019-2021",
-  "education2_desc": "Classes préparatoires pour un diplôme d'ingénieur général. Décision ultérieure de se spécialiser en informatique.",
-  "education3_degree": "Baccalauréat GCE Camerounais",
-  "education3_school": "Collège Bilingue Saint Paul Bafang Cameroun 2018-2019",
-  "education3_desc": "Baccalauréat en Mathématiques, Physique, Chimie. Diplômé avec mention.",
+  "project1": {
+    "title": "Plateforme Nutriboard",
+    "description": "La plateforme Nutriboard a été développée pour répondre au défi critique de détecter les patients à risque de malnutrition. Dans les environnements de soins de santé, la malnutrition peut avoir un impact significatif sur les résultats des patients, allonger la durée des séjours à l'hôpital et augmenter les taux de mortalité. Cependant, le risque nutritionnel est souvent négligé lors des soins de routine.",
+    "devops_role": "En tant qu'ingénieur DevOps et développeur backend sur ce projet, j'étais responsable de la conception d'une infrastructure résiliente sur Microsoft Azure, capable de gérer des données sensibles des patients tout en garantissant une haute disponibilité et la conformité avec les réglementations sanitaires.",
+    "challenges": {
+      "title": "Défis Techniques",
+      "description": "L’un des principaux défis consistait à créer un pipeline de déploiement sécurisé protégeant les données de santé sensibles tout en permettant des mises à jour rapides de la plateforme. J’ai mis en œuvre :",
+      "items": {
+        "1": "Une architecture multi-environnement (développement, préproduction, production) avec une isolation appropriée",
+        "2": "Application conteneurisée avec Docker pour assurer la cohérence entre les environnements",
+        "3": "Gestion sécurisée des secrets via GitHub Secrets, empêchant l’exposition des identifiants",
+        "4": "Pipelines CI/CD automatisés incluant des analyses de sécurité et des vérifications de conformité"
+      }
+    },
+    "implementation": {
+      "title": "Mise en Œuvre",
+      "description": "J’ai conçu et mis en place l’infrastructure et les solutions DevOps suivantes :",
+      "items": {
+        "security_implementation": "<strong>Mise en œuvre de la sécurité :</strong> Développement d'une chaîne de livraison produit sécurisée",
+        "backend_development": "<strong>Développement Backend :</strong> Création de microservices Java pour le traitement des données et l’intégration avec le frontend",
+        "documentation": "<strong>Documentation :</strong> Création d'une documentation technique détaillée et de runbooks pour les opérations"
+      }
+    },
+    "results": {
+      "title": "Résultats et Impact",
+      "description": "La plateforme Nutriboard a été lancée avec succès sans aucun incident de sécurité et une disponibilité de 99,9 %. La solution est désormais en cours d'amélioration par le client pour ajouter de nouvelles fonctionnalités et améliorer l'expérience utilisateur avant son utilisation."
+    },
+    "result1": "Ce projet a démontré ma capacité à mettre en œuvre les meilleures pratiques DevOps dans un environnement de santé réglementé tout en contribuant au développement backend en Java. La solution est désormais en cours d'amélioration par le client pour ajouter de nouvelles fonctionnalités et améliorer l'expérience utilisateur avant son utilisation.",
+    "technologies": {
+      "title": "Technologies Utilisées",
+      "tags": {
+        "1": "<strong>Infrastructure Cloud :</strong> Machines virtuelles Microsoft Azure",
+        "2": "<strong>Développement Backend :</strong> Java Spring Boot pour la création d'API RESTful interagissant avec la base de données nutritionnelle",
+        "3": "<strong>Conteneurisation :</strong> Docker pour le packaging des applications avec des environnements cohérents",
+        "4": "<strong>CI/CD :</strong> Workflows GitHub Actions pour les tests automatisés, la construction et le déploiement",
+        "5": "<strong>Supervision :</strong> Tableaux de bord Grafana pour la surveillance en temps réel de la santé et des performances du système"
+      }
+    },
+    "back_button": "Retour aux Projets"
+  },
   
-  "cert_title": "Certifications",
-  "cert1_name": "AWS Solutions Architect Associate",
-  "cert1_date": "Délivré en 2025",
-  "cert2_name": "HashiCorp Terraform Associate",
-  "cert2_date": "Délivré en 2025",
-  "cert3_name": "Microsoft Azure Fundamentals",
-  "cert3_date": "Délivré en 2025",
+  "project2": {
+    "title": "Automatisation des Tests 5G",
+    "description": "Le projet d’automatisation des tests 5G a répondu à un défi critique dans le domaine des télécommunications : la nature chronophage et sujette aux erreurs des tests manuels des équipements réseau 5G. À mesure que les réseaux deviennent plus complexes, les approches traditionnelles de test manuel n’étaient plus viables pour garantir la qualité et la fiabilité.",
+    "solution": "J’ai dirigé le développement d’un cadre d’automatisation complet qui a révolutionné la manière dont les tests des équipements télécoms étaient réalisés, réduisant le temps de test de 75 % tout en améliorant considérablement la couverture et la fiabilité des tests.",
+    "challenges": {
+      "title": "Défis Techniques et Solutions",
+      "description": "Les principaux défis de ce projet comprenaient :",
+      "items": {
+        "complex_device_interactions": "<strong>Interactions Complexes avec les Appareils :</strong> Les équipements 5G nécessitent des procédures de test précises et en plusieurs étapes couvrant divers protocoles. J’ai développé des bibliothèques Python modulaires qui ont abstrait ces complexités en composants simples et réutilisables.",
+        "test_reliability": "<strong>Fiabilité des Tests :</strong> Les tests réseau sont intrinsèquement sujets à des échecs intermittents. J’ai mis en œuvre une gestion robuste des erreurs et des mécanismes de nouvelle tentative qui ont augmenté la stabilité des tests de 60 % à plus de 95 %.",
+        "reporting_visibility": "<strong>Rapports et Visibilité :</strong> Les parties prenantes avaient besoin d’une visibilité claire sur les résultats des tests. J’ai créé des tableaux de bord personnalisés fournissant une visibilité en temps réel sur l’exécution et les résultats des tests."
+      }
+    },
+    "responsibilities": {
+      "title": "Responsabilités",
+      "items": {
+        "architecture_design": "<strong>Conception de l'Architecture :</strong> Conception de l'architecture globale de l'automatisation, en mettant l'accent sur la modularité et la réutilisabilité",
+        "library_development": "<strong>Développement des Bibliothèques :</strong> Création de bibliothèques Python abstraisant les interactions complexes avec les appareils en appels API simples",
+        "test_framework": "<strong>Cadre de Test :</strong> Mise en œuvre de suites de tests RobotFramework avec des cas de test clairs et lisibles par les utilisateurs métier",
+        "ci_cd_integration": "<strong>Intégration CI/CD :</strong> Mise en place de pipelines de test continus exécutant automatiquement les tests lors des changements de code"
+      }
+    },
+    "results": {
+      "title": "Résultats",
+      "description": "Le cadre d'automatisation a transformé le processus de test avec des résultats mesurables :",
+      "items": {
+        "result1": "Réduction du temps de test de 2 semaines à 3 jours pour les cycles complets de régression",
+        "result2": "Augmentation de la couverture des tests de 40 %, identifiant des problèmes auparavant non détectés",
+        "result3": "Mise en place de tests automatisés 24/7, permettant aux développeurs de recevoir des retours pendant la nuit",
+        "result4": "Standardisation des procédures de test entre différentes équipes et localisations"
+      }
+    },
+    "technologies": {
+      "title": "Technologies Utilisées",
+      "tags": {
+        "1": "<strong>Python :</strong> Langage principal utilisé pour le développement du cadre d'automatisation et des bibliothèques d'interaction avec les appareils",
+        "2": "<strong>RobotFramework :</strong> Cadre d’automatisation de test pour la création de cas de test lisibles et basés sur des mots-clés",
+        "3": "<strong>GitLab CI :</strong> Pipeline d'intégration et de livraison continue pour automatiser la construction et le déploiement",
+        "4": "<strong>Pytest :</strong> Cadre de test Python pour l'écriture et l'exécution des tests"
+      }
+    },
+    "project_impact": "Ce projet a démontré ma capacité à résoudre des défis complexes d’automatisation dans le domaine des télécommunications tout en apportant une réelle valeur métier grâce à une efficacité et une qualité accrues.",
+    "back_button": "Retour aux Projets"
+  },
   
-  "skills_title": "Compétences Technique",
-  "skills_cloud": "Cloud & Infrastructure",
-  "skills_devops": "DevOps & Automatisation",
-  "skills_dev": "Développement",
+  "project3": {
+    "title": "Automatisation AWS avec Terraform",
+    "description": "Ce projet répondait au problème de provisionnement manuel et incohérent de l'infrastructure AWS, qui entraînait des retards de déploiement, une dérive de configuration et des problèmes de sécurité. J'ai développé une solution complète d'Infrastructure as Code (IaC) en utilisant Terraform pour automatiser le déploiement et la gestion des ressources AWS.",
+    "solution": "Ce qui avait commencé comme une tâche d'automatisation simple s’est transformé en un cadre robuste et modulaire, permettant des déploiements cohérents, sécurisés et reproductibles.",
+    "challenges": {
+      "title": "Défis Techniques et Solutions",
+      "description": "Au cours de ce projet, j'ai rencontré et résolu plusieurs défis majeurs :",
+      "items": {
+        "Infrastructure_Complexity": "<strong>Complexité de l'Infrastructure :</strong> L’environnement AWS nécessitait de nombreuses ressources interconnectées. J’ai mis en place une architecture modulaire avec une gestion claire des dépendances pour gérer cette complexité.",
+        "Security_Compliance": "<strong>Sécurité et Conformité :</strong> L'infrastructure devait répondre à des exigences de sécurité strictes. J’ai intégré des politiques de sécurité en tant que code et mis en œuvre des contrôles de conformité automatisés dans le pipeline de déploiement.",
+        "Reusability": "<strong>Réutilisabilité :</strong> Les premières implémentations étaient trop spécifiques à chaque cas d’usage. J’ai refactorisé le code en modules réutilisables avec des paramètres configurables, réduisant considérablement la duplication."
+      }
+    },
+    "implementation": {
+      "title": "Approche de Mise en Œuvre",
+      "description": "J’ai abordé ce projet avec un accent sur la modularité et les bonnes pratiques :",
+      "items": {
+        "Module Development": "<strong>Développement de Modules :</strong> Création de modules Terraform réutilisables pour les composants d’infrastructure courants (EC2, RDS, S3, etc.) avec des interfaces standardisées",
+        "Environment Separation": "<strong>Séparation des Environnements :</strong> Mise en œuvre d’une séparation des environnements basée sur les workspaces (dev, staging, production) avec des configurations de variables appropriées",
+        "Documentation": "<strong>Documentation :</strong> Création d’une documentation complète pour chaque module, incluant des exemples d’utilisation et des références de paramètres"
+      }
+    },
+    "results": {
+      "title": "Résultats",
+      "description": "Le projet d’automatisation avec Terraform a apporté une valeur métier significative :",
+      "items": {
+        "result1": "Réduction du temps de déploiement de l’infrastructure de plusieurs jours à quelques minutes",
+        "result2": "Élimination de la dérive de configuration grâce à une infrastructure définie dans le code",
+        "result3": "Mise en place d'une infrastructure en libre-service pour les équipes de développement tout en maintenant la gouvernance"
+      }
+    },
+    "technologies": {
+      "title": "Technologies Utilisées",
+      "tags": {
+        "1": "<strong>Terraform :</strong> Technologie principale utilisée pour déployer les ressources sur AWS",
+        "2": "<strong>AWS :</strong> Fournisseur cloud utilisé pour héberger les ressources",
+        "3": "<strong>GitHub Actions :</strong> Pipeline CI/CD utilisé pour automatiser le processus de déploiement",
+        "4": "<strong>Bash :</strong> Langage de script utilisé pour automatiser le processus de déploiement"
+      }
+    },
+    "project_impact": "Ce projet a démontré mon expertise en automatisation de l’infrastructure cloud et en pratiques DevOps, en particulier dans la création de solutions d’infrastructure évolutives, sécurisées et maintenables avec Terraform et AWS.",
+    "back_button": "Retour aux Projets"
+  },
   
-  "approach_title": "Mon Approche",
-  "approach1_title": "L'Automatisation d'Abord",
-  "approach1_desc": "Je crois en l'automatisation de tout ce qui est possible, de l'approvisionnement d'infrastructure aux tests et au déploiement. Cela réduit les erreurs humaines, augmente la fiabilité et libère du temps pour l'innovation.",
-  "approach2_title": "Sécurité par Conception",
-  "approach2_desc": "La sécurité n'est pas une réflexion après coup dans mon travail. J'intègre les meilleures pratiques de sécurité tout au long du cycle de vie du développement, de la conception de l'infrastructure à l'implémentation du code.",
-  "approach3_title": "Apprentissage Continu",
-  "approach3_desc": "Le paysage technologique évolue rapidement. Je reste à jour avec les technologies émergentes et les meilleures pratiques, en élargissant continuellement mes compétences pour fournir des solutions de pointe.",
-  
-  "connect_title": "Connectez-Vous Avec Moi",
-  "footer_copyright": " 2025 Darryl Jordan",
-  
-  "contact_title": "Contactez-Moi",
-  "contact_text": "Pour toute demande ou question, n'hésitez pas à me contacter à",
-  
-  "language_en": "Anglais",
-  "language_fr": "Français",
-  
-  "header_title": "Darryl Jordan",
-  "header_subtitle": "Ingénieur DevOps | Automatisation | Cloud | Monitoring",
-  
-  "github": "GitHub",
-  "linkedin": "LinkedIn",
-  
-  "project1_description": "La plateforme Nutriboard a été développée pour répondre au défi critique de la détection des patients qui pourraient être à risque de malnutrition. Dans les établissements de santé, la malnutrition peut avoir un impact significatif sur les résultats des patients, prolongeant les séjours hospitaliers et augmentant les taux de mortalité. Cependant, le risque nutritionnel est souvent négligé lors des soins de routine.",
-  "project1_devops": "En tant qu'ingénieur DevOps et développeur backend sur ce projet, j'étais responsable de la conception d'une infrastructure résiliente sur Microsoft Azure capable de gérer des données sensibles de patients tout en assurant une haute disponibilité et la conformité aux réglementations de santé.",
-  
-  "project2_description": "Le projet d'Automatisation des Tests 5G a répondu à un défi critique dans les tests de télécommunications : la nature chronophage et sujette aux erreurs des tests manuels pour les équipements de réseau 5G. Avec la complexité croissante des réseaux, les approches traditionnelles de tests manuels n'étaient plus viables pour assurer la qualité et la fiabilité.",
-  "project2_solution": "J'ai dirigé le développement d'un cadre d'automatisation complet qui a révolutionné la façon dont les tests d'équipements de télécommunications étaient menés, réduisant le temps de test de 75% tout en améliorant significativement la couverture et la fiabilité des tests.",
-  
-  "project3_description": "Ce projet a abordé le défi du provisionnement manuel et incohérent de l'infrastructure AWS qui causait des retards de déploiement, des dérives de configuration et des problèmes de sécurité. J'ai développé une solution complète d'Infrastructure as Code (IaC) utilisant Terraform pour automatiser le déploiement et la gestion des ressources AWS.",
-  "project3_solution": "Ce qui a commencé comme une simple tâche d'automatisation s'est transformé en un cadre modulaire robuste, permettant des déploiements cohérents, sécurisés et reproductibles.",
-  
-  "project4_description": "L'Application de Bibliothèque est une application web full-stack que je développe pour moderniser la gestion d'une collection de livres privée. Ce projet met en valeur mes capacités de développement de bout en bout, car je suis seul responsable de tous les aspects, de la conception et l'architecture à l'implémentation et au déploiement.",
-  "project4_solution": "Bien que l'application soit développée pour un client spécifique et contienne des ressources protégées par des droits d'auteur (empêchant l'accès public), ce projet démontre ma capacité à créer des applications complètes, prêtes pour la production, en utilisant des technologies web modernes.",
-  
-  "technical_challenges": "Défis Techniques & Solutions",
-  "technical_challenges_description": "Les principaux défis techniques incluaient :",
-  
-  "technologies_used": "Technologies Utilisées",
-  "implementation": "Implémentation",
-  "results": "Résultats",
-  "results_description": "L'implémentation a apporté des améliorations significatives :",
-  "project_impact": "Ce projet a démontré ma capacité à mettre en œuvre les meilleures pratiques DevOps dans un environnement de santé réglementé tout en contribuant au développement backend en Java.",
-  
-  "multi_environment": "Une architecture multi-environnement (développement, staging, production) avec une isolation appropriée",
-  "containerization": "Application conteneurisée utilisant Docker pour assurer la cohérence entre les environnements",
-  "secret_management": "Gestion sécurisée des secrets via GitHub Secrets, empêchant l'exposition des identifiants",
-  "ci_cd": "Pipelines CI/CD automatisés incluant des analyses de sécurité et des vérifications de conformité",
-  
-  "complex_device_interactions": "Interactions Complexes avec les Appareils",
-  "test_reliability": "Fiabilité des Tests",
-  "reporting_visibility": "Rapports et Visibilité",
-  
-  "architecture_design": "Conception d'Architecture",
-  "library_development": "Développement de Bibliothèques",
-  "test_framework": "Cadre de Test",
-  "ci_cd_integration": "Intégration CI/CD",
-  
-  "result1": "Réduction du temps de test de 2 semaines à 3 jours pour les cycles de régression complets",
-  "result2": "Augmentation de la couverture de test de 40%, identifiant des problèmes précédemment non découverts",
-  "result3": "Mise en place de tests automatisés 24/7, permettant aux développeurs d'obtenir des retours pendant la nuit",
-  "result4": "Standardisation des procédures de test entre différentes équipes et localisations"
+  "project4": {
+    "title": "Application Bibliothèque",
+    "description": "L'application Bibliothèque est une application web full-stack que je développe pour moderniser la gestion d'une collection privée de livres. Ce projet met en valeur mes compétences de développement de bout en bout, car je suis seul responsable de tous les aspects, de la conception et l'architecture jusqu'à la mise en œuvre et le déploiement.",
+    "context": "Bien que l'application soit développée pour un client spécifique et contienne des ressources protégées par le droit d’auteur (empêchant un accès public), ce projet démontre ma capacité à créer des applications complètes et prêtes pour la production en utilisant des technologies web modernes.",
+    "challenges": {
+      "title": "Défis Techniques et Solutions",
+      "description": "Ce projet a présenté plusieurs défis techniques intéressants :",
+      "items": {
+        "Complex_Data_Relationships": "<strong>Relations de Données Complexes :</strong> Le catalogue nécessitait la gestion de relations complexes entre les livres, les auteurs, les catégories et les interactions utilisateur. J’ai conçu un schéma de base de données normalisé avec des requêtes efficaces pour gérer ces relations.",
+        "Search_Func": "<strong>Fonctionnalité de Recherche :</strong> Les utilisateurs avaient besoin de puissantes capacités de recherche sur plusieurs champs avec classement par pertinence. J’ai mis en œuvre un système de recherche avancé avec filtres, facettes et recherche en texte intégral.",
+        "Responsive_UI": "<strong>Interface Responsive :</strong> L’application devait fonctionner parfaitement sur tous les types d'appareils. J’ai construit une interface React responsive avec une approche mobile-first, assurant une expérience utilisateur cohérente du smartphone au bureau.",
+        "Authentication_Authorization": "<strong>Authentification et Autorisation :</strong> Différents rôles utilisateurs nécessitaient des niveaux d’accès distincts. J’ai implémenté un système d’authentification basé sur JWT avec contrôles d’accès basés sur les rôles."
+      }
+    },
+    "features": {
+      "title": "Fonctionnalités Clés",
+      "items": {
+        "1": "<strong>Gestion du Catalogue :</strong> Système complet pour ajouter, modifier et organiser les livres avec des métadonnées",
+        "2": "<strong>Gestion des Utilisateurs :</strong> Contrôle d'accès basé sur les rôles avec permissions différentes pour les administrateurs et les utilisateurs classiques",
+        "3": "<strong>Système d'Emprunt :</strong> Suivi numérique des emprunts avec dates d’échéance, notifications et historique",
+        "4": "<strong>Recherche Avancée :</strong> Recherche multifacette avec filtres par genres, auteurs, dates de publication et disponibilité",
+        "5": "<strong>Tableau de Bord Analytique :</strong> Rapports visuels sur la composition de la collection, les livres populaires et les tendances d’emprunt",
+        "6": "<strong>Responsive Mobile :</strong> Expérience optimisée sur tous les formats d’écran"
+      }
+    },
+    "approach": {
+      "title": "Approche de Développement",
+      "description": "En tant que seul développeur sur ce projet, j’ai adopté une approche de développement structurée :",
+      "items": {
+        "1": "Démarrage par une collecte détaillée des besoins et une cartographie des user stories",
+        "2": "Développement en parallèle du backend et du frontend, avec des branches par fonctionnalité et une livraison incrémentale",
+        "3": "Mise en place de tests automatisés à plusieurs niveaux pour garantir la qualité",
+        "4": "Établissement d’un pipeline CI/CD pour des déploiements fiables et cohérents"
+      }
+    },
+    "technologies": {
+      "title": "Technologies Utilisées",
+      "tags": {
+        "1": "<strong>Frontend :</strong> React.js avec hooks, context API pour la gestion d'état, et styled-components pour le style",
+        "2": "<strong>Backend :</strong> Node.js avec Express, créant des API RESTful et des middlewares pour la logique métier",
+        "3": "<strong>Base de Données :</strong> PostgreSQL pour un stockage flexible, avec Sequelize pour la validation du schéma",
+        "4": "<strong>Authentification :</strong> Authentification basée sur JWT avec stockage sécurisé par cookie et rotation de jetons de rafraîchissement",
+        "5": "<strong>Tests :</strong> Jest pour les tests unitaires, React Testing Library pour les composants, et Cypress pour les tests end-to-end",
+        "6": "<strong>Déploiement :</strong> Conteneurs Docker avec pipeline CI/CD pour les tests automatisés et le déploiement"
+      }
+    },
+    "project_impact": "Ce projet en cours démontre mes compétences en développement full-stack et ma capacité à livrer de manière autonome une application complète, prête pour la production, répondant à des besoins métier réels. Il illustre également ma capacité d’adaptation aux nouvelles technologies et frameworks.",
+    "back_button": "Retour aux Projets"
+  }
 }
