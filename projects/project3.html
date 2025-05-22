@@ -9,13 +9,13 @@
 </head>
 <body>
   <header>
-    <h1>Darryl Jordan</h1>
-    <p>DevOps Engineer | Automation | Cloud | Monitoring</p>
+    <h1 data-i18n="general.header.header_title">Darryl Jordan</h1>
+    <p data-i18n="general.header.header_subtitle">DevOps Engineer | Automation | Cloud | Monitoring</p>
     <div class="header-container">
       <nav>
-        <a href="../index.html" data-i18n="nav_home">Home</a>
-        <a href="../about.html" data-i18n="nav_about">About</a>
-        <a href="../contact.html" data-i18n="nav_contact">Contact</a>
+        <a href="../index.html" data-i18n="general.navigation.nav_home">Home</a>
+        <a href="../about.html" data-i18n="general.navigation.nav_about">About</a>
+        <a href="../contact.html" data-i18n="general.navigation.nav_contact">Contact</a>
       </nav>
       <div class="language-switcher">
         <button data-lang="en" onclick="i18n.switchLanguage('en')" class="active">EN</button>
@@ -26,52 +26,51 @@
   </header>
 
   <main class="project-detail">
-    <h2 data-i18n="project3_title">AWS Terraform Automation</h2>
+    <h2 data-i18n="project3.title">AWS Terraform Automation</h2>
     
-    <p data-i18n="project3_description">This project addressed the challenge of inconsistent, manual AWS infrastructure provisioning that was causing deployment delays, configuration drift, and security concerns. I developed a comprehensive Infrastructure as Code (IaC) solution using Terraform to automate the deployment and management of AWS resources.</p>
+    <p data-i18n="project3.description">This project addressed the challenge of inconsistent, manual AWS infrastructure provisioning that was causing deployment delays, configuration drift, and security concerns. I developed a comprehensive Infrastructure as Code (IaC) solution using Terraform to automate the deployment and management of AWS resources.</p>
     
-    <p>What began as a simple automation task evolved into a robust, modular framework, enabling consistent, secure, and repeatable deployments.</p>
+    <p data-i18n="project3.solution">What began as a simple automation task evolved into a robust, modular framework, enabling consistent, secure, and repeatable deployments.</p>
 
-    <h3>Technical Challenges & Solutions</h3>
-    <p>Throughout this project, I encountered and solved several significant challenges:</p>
+    <h3 data-i18n="project3.challenges.title">Technical Challenges & Solutions</h3>
+    <p data-i18n="project3.challenges.description">Throughout this project, I encountered and solved several significant challenges:</p>
     <ul>
-      <li><strong>Infrastructure Complexity:</strong> The AWS environment required numerous interconnected resources. I implemented a modular architecture with clear dependency management to handle this complexity.</li>
-      <li><strong>Security & Compliance:</strong> Infrastructure needed to meet strict security requirements. I integrated security policies as code and implemented automated compliance checks in the deployment pipeline.</li>
-      <li><strong>Reusability:</strong> Initial implementations were too specific to individual use cases. I refactored the code into reusable modules with configurable parameters, significantly reducing duplication.</li>
+      <li data-i18n="project3.challenges.items.Infrastructure_Complexity"><strong>Infrastructure Complexity:</strong> The AWS environment required numerous interconnected resources. I implemented a modular architecture with clear dependency management to handle this complexity.</li>
+      <li data-i18n="project3.challenges.items.Security_Compliance"><strong>Security & Compliance:</strong> Infrastructure needed to meet strict security requirements. I integrated security policies as code and implemented automated compliance checks in the deployment pipeline.</li>
+      <li data-i18n="project3.challenges.items.Reusability"><strong>Reusability:</strong> Initial implementations were too specific to individual use cases. I refactored the code into reusable modules with configurable parameters, significantly reducing duplication.</li>
     </ul>
 
-    <h3>Technologies Used</h3>
-    <div class="tech-stack">
-      <span class="tech-tag">Terraform</span>
-      <span class="tech-tag">AWS</span>
-      <span class="tech-tag">GitHub Actions</span>
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">Bash</span>
-    </div>
-
-    <h3>Implementation Approach</h3>
-    <p>I approached this project with a focus on modularity and best practices:</p>
+    <h3 data-i18n="project3.technologies.title">Technologies Used</h3>
     <ul>
-      <li><strong>Module Development:</strong> Created reusable Terraform modules for common infrastructure components (EC2, RDS, S3, etc.) with standardized interfaces</li>
-      <li><strong>Environment Separation:</strong> Implemented workspace-based environment separation (dev, staging, production) with appropriate variable configurations</li>
-      <li><strong>Documentation:</strong> Created comprehensive documentation for each module, including usage examples and parameter references</li>
+      <li data-i18n="project3.technologies.tags.1"><strong>Terraform</strong>: Main technology used to deploy the resources on AWS</li>
+      <li data-i18n="project3.technologies.tags.2"><strong>AWS</strong>: Cloud provider used to host the resources</li>
+      <li data-i18n="project3.technologies.tags.3"><strong>GitHub Actions</strong>: CI/CD pipeline used to automate the deployment process</li>
+      <li data-i18n="project3.technologies.tags.4"><strong>Bash</strong>: Scripting language used to automate the deployment process</li>
     </ul>
 
-    <h3>Results</h3>
-    <p>The Terraform automation project delivered significant business value:</p>
+    <h3 data-i18n="project3.implementation.title">Implementation Approach</h3>
+    <p data-i18n="project3.implementation.description">I approached this project with a focus on modularity and best practices:</p>
     <ul>
-      <li>Reduced infrastructure deployment time from days to minutes</li>
-      <li>Eliminated configuration drift through consistent, code-defined infrastructure</li>
-      <li>Enabled self-service infrastructure for development teams while maintaining governance</li>
+      <li data-i18n="project3.implementation.items.Module_Development"><strong>Module Development:</strong> Created reusable Terraform modules for common infrastructure components (EC2, RDS, S3, etc.) with standardized interfaces</li>
+      <li data-i18n="project3.implementation.items.Environment_Separation"><strong>Environment Separation:</strong> Implemented workspace-based environment separation (dev, staging, production) with appropriate variable configurations</li>
+      <li data-i18n="project3.implementation.items.Documentation"><strong>Documentation:</strong> Created comprehensive documentation for each module, including usage examples and parameter references</li>
+    </ul>
+
+    <h3 data-i18n="project3.results.title">Results</h3>
+    <p data-i18n="project3.results.description">The Terraform automation project delivered significant business value:</p>
+    <ul>
+      <li data-i18n="project3.results.items.result1">Reduced infrastructure deployment time from days to minutes</li>
+      <li data-i18n="project3.results.items.result2">Eliminated configuration drift through consistent, code-defined infrastructure</li>
+      <li data-i18n="project3.results.items.result3">Enabled self-service infrastructure for development teams while maintaining governance</li>
     </ul>
     
-    <p>This project demonstrated my expertise in cloud infrastructure automation and DevOps practices, particularly in creating scalable, secure, and maintainable infrastructure solutions using Terraform and AWS.</p>
+    <p data-i18n="project3.project_impact">This project demonstrated my expertise in cloud infrastructure automation and DevOps practices, particularly in creating scalable, secure, and maintainable infrastructure solutions using Terraform and AWS.</p>
     
     <a href="../index.html#projects" class="back-button">&larr; Back to Projects</a>
   </main>
 
   <footer>
-    <p data-i18n="footer_copyright">&copy; 2025 Darryl Jordan</p>
+    <p data-i18n="general.footer.footer_copyright">&copy; 2025 Darryl Jordan</p>
   </footer>
   <script src="../js/main.js"></script>
   <script src="../js/i18n.js"></script>
