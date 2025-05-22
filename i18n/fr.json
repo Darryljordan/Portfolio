@@ -1,0 +1,110 @@
+{
+  "nav_home": "Accueil",
+  "nav_about": "À propos",
+  "nav_projects": "Projets",
+  "nav_contact": "Contact",
+  
+  "hero_welcome": "Bienvenue !",
+  "hero_intro": "Je suis Darryl, un ingénieur DevOps passionné par les infrastructures résilientes, le CI/CD, les systèmes distribués et l'automatisation. Voici mon portfolio que j'ai développé à partir de zéro pour mettre en valeur mes compétences et mon expérience.",
+  
+  "projects_title": "Projets",
+  "project1_title": "Plateforme Nutriboard",
+  "project1_desc": "Déploiement cloud, pipelines CI/CD, surveillance pour une plateforme de santé.",
+  "project2_title": "Automatisation de Tests 5G",
+  "project2_desc": "Bibliothèques Python pour les tests de télécommunications et l'automatisation avec RobotFramework.",
+  "project3_title": "Déploiement Automatisé de Ressources AWS avec Terraform",
+  "project3_desc": "Utilisation de Terraform pour automatiser le déploiement de ressources sur AWS. Modules pour EC2, RDS, S3, VPC, Groupes de Sécurité et rôles IAM.",
+  "project4_title": "Application de Bibliothèque",
+  "project4_desc": "Application de bibliothèque construite avec React et Node.js.",
+  
+  "about_title": "À Propos de Moi",
+  "about_intro": "Je suis un ingénieur DevOps polyvalent et développeur Full-Stack passionné par la construction de systèmes évolutifs et résilients. Avec une expertise couvrant l'infrastructure cloud, l'automatisation et le développement logiciel, je fais le pont entre le développement et les opérations pour fournir des solutions efficaces et fiables.",
+  "about_approach": "Mon approche combine l'excellence technique avec un accent sur les résultats commerciaux. Que ce soit en optimisant les pipelines CI/CD, en implémentant l'infrastructure en tant que code, ou en développant des applications full-stack, je livre des solutions à la fois techniquement solides et alignées avec les objectifs organisationnels.",
+  
+  "education_title": "Formation",
+  "education1_degree": "Diplôme d'Ingénieur en Informatique",
+  "education1_school": "Polytech Grenoble France • 2021-2024",
+  "education1_desc": "Diplôme d'ingénieur en informatique. Spécialisation en réseaux et systèmes informatiques.",
+  "education2_degree": "Classes préparatoires",
+  "education2_school": "Institut Universitaire de la Côte Cameroun • 2019-2021",
+  "education2_desc": "Classes préparatoires pour un diplôme d'ingénieur général. Décision ultérieure de se spécialiser en informatique.",
+  "education3_degree": "Baccalauréat GCE Camerounais",
+  "education3_school": "Collège Bilingue Saint Paul Bafang Cameroun 2018-2019",
+  "education3_desc": "Baccalauréat en Mathématiques, Physique, Chimie. Diplômé avec mention.",
+  
+  "cert_title": "Certifications",
+  "cert1_name": "AWS Solutions Architect Associate",
+  "cert1_date": "Délivré en 2025",
+  "cert2_name": "HashiCorp Terraform Associate",
+  "cert2_date": "Délivré en 2025",
+  "cert3_name": "Microsoft Azure Fundamentals",
+  "cert3_date": "Délivré en 2025",
+  
+  "skills_title": "Compétences Technique",
+  "skills_cloud": "Cloud & Infrastructure",
+  "skills_devops": "DevOps & Automatisation",
+  "skills_dev": "Développement",
+  
+  "approach_title": "Mon Approche",
+  "approach1_title": "L'Automatisation d'Abord",
+  "approach1_desc": "Je crois en l'automatisation de tout ce qui est possible, de l'approvisionnement d'infrastructure aux tests et au déploiement. Cela réduit les erreurs humaines, augmente la fiabilité et libère du temps pour l'innovation.",
+  "approach2_title": "Sécurité par Conception",
+  "approach2_desc": "La sécurité n'est pas une réflexion après coup dans mon travail. J'intègre les meilleures pratiques de sécurité tout au long du cycle de vie du développement, de la conception de l'infrastructure à l'implémentation du code.",
+  "approach3_title": "Apprentissage Continu",
+  "approach3_desc": "Le paysage technologique évolue rapidement. Je reste à jour avec les technologies émergentes et les meilleures pratiques, en élargissant continuellement mes compétences pour fournir des solutions de pointe.",
+  
+  "connect_title": "Connectez-Vous Avec Moi",
+  "footer_copyright": " 2025 Darryl Jordan",
+  
+  "contact_title": "Contactez-Moi",
+  "contact_text": "Pour toute demande ou question, n'hésitez pas à me contacter à",
+  
+  "language_en": "Anglais",
+  "language_fr": "Français",
+  
+  "header_title": "Darryl Jordan",
+  "header_subtitle": "Ingénieur DevOps | Automatisation | Cloud | Monitoring",
+  
+  "github": "GitHub",
+  "linkedin": "LinkedIn",
+  
+  "project1_description": "La plateforme Nutriboard a été développée pour répondre au défi critique de la détection des patients qui pourraient être à risque de malnutrition. Dans les établissements de santé, la malnutrition peut avoir un impact significatif sur les résultats des patients, prolongeant les séjours hospitaliers et augmentant les taux de mortalité. Cependant, le risque nutritionnel est souvent négligé lors des soins de routine.",
+  "project1_devops": "En tant qu'ingénieur DevOps et développeur backend sur ce projet, j'étais responsable de la conception d'une infrastructure résiliente sur Microsoft Azure capable de gérer des données sensibles de patients tout en assurant une haute disponibilité et la conformité aux réglementations de santé.",
+  
+  "project2_description": "Le projet d'Automatisation des Tests 5G a répondu à un défi critique dans les tests de télécommunications : la nature chronophage et sujette aux erreurs des tests manuels pour les équipements de réseau 5G. Avec la complexité croissante des réseaux, les approches traditionnelles de tests manuels n'étaient plus viables pour assurer la qualité et la fiabilité.",
+  "project2_solution": "J'ai dirigé le développement d'un cadre d'automatisation complet qui a révolutionné la façon dont les tests d'équipements de télécommunications étaient menés, réduisant le temps de test de 75% tout en améliorant significativement la couverture et la fiabilité des tests.",
+  
+  "project3_description": "Ce projet a abordé le défi du provisionnement manuel et incohérent de l'infrastructure AWS qui causait des retards de déploiement, des dérives de configuration et des problèmes de sécurité. J'ai développé une solution complète d'Infrastructure as Code (IaC) utilisant Terraform pour automatiser le déploiement et la gestion des ressources AWS.",
+  "project3_solution": "Ce qui a commencé comme une simple tâche d'automatisation s'est transformé en un cadre modulaire robuste, permettant des déploiements cohérents, sécurisés et reproductibles.",
+  
+  "project4_description": "L'Application de Bibliothèque est une application web full-stack que je développe pour moderniser la gestion d'une collection de livres privée. Ce projet met en valeur mes capacités de développement de bout en bout, car je suis seul responsable de tous les aspects, de la conception et l'architecture à l'implémentation et au déploiement.",
+  "project4_solution": "Bien que l'application soit développée pour un client spécifique et contienne des ressources protégées par des droits d'auteur (empêchant l'accès public), ce projet démontre ma capacité à créer des applications complètes, prêtes pour la production, en utilisant des technologies web modernes.",
+  
+  "technical_challenges": "Défis Techniques & Solutions",
+  "technical_challenges_description": "Les principaux défis techniques incluaient :",
+  
+  "technologies_used": "Technologies Utilisées",
+  "implementation": "Implémentation",
+  "results": "Résultats",
+  "results_description": "L'implémentation a apporté des améliorations significatives :",
+  "project_impact": "Ce projet a démontré ma capacité à mettre en œuvre les meilleures pratiques DevOps dans un environnement de santé réglementé tout en contribuant au développement backend en Java.",
+  
+  "multi_environment": "Une architecture multi-environnement (développement, staging, production) avec une isolation appropriée",
+  "containerization": "Application conteneurisée utilisant Docker pour assurer la cohérence entre les environnements",
+  "secret_management": "Gestion sécurisée des secrets via GitHub Secrets, empêchant l'exposition des identifiants",
+  "ci_cd": "Pipelines CI/CD automatisés incluant des analyses de sécurité et des vérifications de conformité",
+  
+  "complex_device_interactions": "Interactions Complexes avec les Appareils",
+  "test_reliability": "Fiabilité des Tests",
+  "reporting_visibility": "Rapports et Visibilité",
+  
+  "architecture_design": "Conception d'Architecture",
+  "library_development": "Développement de Bibliothèques",
+  "test_framework": "Cadre de Test",
+  "ci_cd_integration": "Intégration CI/CD",
+  
+  "result1": "Réduction du temps de test de 2 semaines à 3 jours pour les cycles de régression complets",
+  "result2": "Augmentation de la couverture de test de 40%, identifiant des problèmes précédemment non découverts",
+  "result3": "Mise en place de tests automatisés 24/7, permettant aux développeurs d'obtenir des retours pendant la nuit",
+  "result4": "Standardisation des procédures de test entre différentes équipes et localisations"
+}

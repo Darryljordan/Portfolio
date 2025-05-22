@@ -1,0 +1,111 @@
+{
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_projects": "Projects",
+    "nav_contact": "Contact",
+    
+    "hero_welcome": "Welcome!",
+    "hero_intro": "I'm Darryl, a DevOps engineer passionate about resilient infrastructures, CI/CD, distributed systems, and automation. This is my portfolio, which I built from scratch to showcase my skills and experience.",
+    
+    "projects_title": "Projects",
+    "project1_title": "Nutriboard Platform",
+    "project1_desc": "Cloud deployment, CI/CD pipelines, monitoring for a healthcare platform.",
+    "project2_title": "5G Test Automation",
+    "project2_desc": "Python libraries for telecom testing and automation with RobotFramework.",
+    "project3_title": "Automated AWS Resource Deployment with Terraform",
+    "project3_desc": "Used Terraform to automate resource deployment on AWS. Modules for EC2, RDS, S3, VPC, Security Groups, and IAM roles.",
+    "project4_title": "Library Application",
+    "project4_desc": "Library application built with React and Node.js.",
+    
+    "about_title": "About Me",
+    "about_intro": "I'm a versatile DevOps engineer and full-stack developer passionate about building scalable and resilient systems. With expertise spanning cloud infrastructure, automation, and software development, I bridge development and operations to deliver efficient and reliable solutions.",
+    "about_approach": "My approach combines technical excellence with a focus on business outcomes. Whether optimizing CI/CD pipelines, implementing infrastructure as code, or developing full-stack applications, I deliver solutions that are both technically sound and aligned with organizational goals.",
+    
+    "education_title": "Education",
+    "education1_degree": "Computer Engineering Degree",
+    "education1_school": "Polytech Grenoble France • 2021-2024",
+    "education1_desc": "Engineering degree in Computer Science. Specialization in Networks and Computer Systems.",
+    "education2_degree": "Preparatory Classes",
+    "education2_school": "Institut Universitaire de la Côte Cameroon • 2019-2021",
+    "education2_desc": "Preparatory classes for a general engineering degree. Later decided to specialize in computer science.",
+    "education3_degree": "Cameroonian GCE Baccalaureate",
+    "education3_school": "Saint Paul Bilingual College Bafang Cameroon 2018-2019",
+    "education3_desc": "Baccalaureate in Mathematics, Physics, Chemistry. Graduated with honors.",
+    
+    "cert_title": "Certifications",
+    "cert1_name": "AWS Solutions Architect Associate",
+    "cert1_date": "Issued in 2025",
+    "cert2_name": "HashiCorp Terraform Associate",
+    "cert2_date": "Issued in 2025",
+    "cert3_name": "Microsoft Azure Fundamentals",
+    "cert3_date": "Issued in 2025",
+    
+    "skills_title": "Technical Skills",
+    "skills_cloud": "Cloud & Infrastructure",
+    "skills_devops": "DevOps & Automation",
+    "skills_dev": "Development",
+    
+    "approach_title": "My Approach",
+    "approach1_title": "Automation First",
+    "approach1_desc": "I believe in automating everything possible, from infrastructure provisioning to testing and deployment. This reduces human error, increases reliability, and frees up time for innovation.",
+    "approach2_title": "Security by Design",
+    "approach2_desc": "Security is not an afterthought in my work. I incorporate security best practices throughout the development lifecycle, from infrastructure design to code implementation.",
+    "approach3_title": "Continuous Learning",
+    "approach3_desc": "The tech landscape evolves quickly. I stay up to date with emerging technologies and best practices, constantly expanding my skills to deliver cutting-edge solutions.",
+    
+    "connect_title": "Connect With Me",
+    "footer_copyright": "2025 Darryl Jordan",
+    
+    "contact_title": "Contact Me",
+    "contact_text": "For any inquiries or questions, feel free to reach out at",
+    
+    "language_en": "English",
+    "language_fr": "French",
+    
+    "header_title": "Darryl Jordan",
+    "header_subtitle": "DevOps Engineer | Automation | Cloud | Monitoring",
+    
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    
+    "project1_description": "The Nutriboard platform was developed to address the critical challenge of identifying patients at risk of malnutrition. In healthcare settings, malnutrition can significantly impact patient outcomes, prolong hospital stays, and increase mortality rates. However, nutritional risk is often overlooked in routine care.",
+    "project1_devops": "As a DevOps engineer and backend developer on this project, I was responsible for designing a resilient infrastructure on Microsoft Azure capable of handling sensitive patient data while ensuring high availability and compliance with healthcare regulations.",
+    
+    "project2_description": "The 5G Test Automation project tackled a critical challenge in telecom testing: the time-consuming and error-prone nature of manual testing for 5G network equipment. With increasing network complexity, traditional manual testing approaches were no longer viable to ensure quality and reliability.",
+    "project2_solution": "I led the development of a comprehensive automation framework that revolutionized how telecom equipment testing was conducted, reducing test time by 75% while significantly improving coverage and reliability.",
+    
+    "project3_description": "This project addressed the challenge of manual and inconsistent AWS infrastructure provisioning, which caused deployment delays, configuration drift, and security issues. I developed a comprehensive Infrastructure as Code (IaC) solution using Terraform to automate AWS resource deployment and management.",
+    "project3_solution": "What started as a simple automation task evolved into a robust modular framework, enabling consistent, secure, and reproducible deployments.",
+    
+    "project4_description": "The Library Application is a full-stack web app I’m developing to modernize the management of a private book collection. This project showcases my end-to-end development capabilities, as I am solely responsible for all aspects, from design and architecture to implementation and deployment.",
+    "project4_solution": "Although the app is being developed for a specific client and includes copyrighted resources (restricting public access), it demonstrates my ability to create complete, production-ready applications using modern web technologies.",
+    
+    "technical_challenges": "Technical Challenges & Solutions",
+    "technical_challenges_description": "The main technical challenges included:",
+    
+    "technologies_used": "Technologies Used",
+    "implementation": "Implementation",
+    "results": "Results",
+    "results_description": "The implementation brought significant improvements:",
+    "project_impact": "This project demonstrated my ability to implement DevOps best practices in a regulated healthcare environment while contributing to backend development in Java.",
+    
+    "multi_environment": "A multi-environment architecture (development, staging, production) with proper isolation",
+    "containerization": "Containerized application using Docker to ensure consistency across environments",
+    "secret_management": "Secure secret management via GitHub Secrets, preventing credential exposure",
+    "ci_cd": "Automated CI/CD pipelines including security scans and compliance checks",
+    
+    "complex_device_interactions": "Complex Device Interactions",
+    "test_reliability": "Test Reliability",
+    "reporting_visibility": "Reporting and Visibility",
+    
+    "architecture_design": "Architecture Design",
+    "library_development": "Library Development",
+    "test_framework": "Test Framework",
+    "ci_cd_integration": "CI/CD Integration",
+    
+    "result1": "Reduced test cycle time from 2 weeks to 3 days for full regression cycles",
+    "result2": "Increased test coverage by 40%, identifying previously undiscovered issues",
+    "result3": "Implemented 24/7 automated testing, enabling overnight feedback for developers",
+    "result4": "Standardized testing procedures across different teams and locations"
+  }
+  

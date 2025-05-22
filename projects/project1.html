@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutriboard Platform | Darryl Jordan</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/project.css" />
+</head>
+<body>
+  <header>
+    <h1>Darryl Jordan</h1>
+    <p>DevOps Engineer | Automation | Cloud | Monitoring</p>
+    <div class="header-container">
+      <nav>
+        <a href="../index.html" data-i18n="nav_home">Home</a>
+        <a href="../about.html" data-i18n="nav_about">About</a>
+        <a href="../contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="language-switcher">
+        <button data-lang="en" onclick="i18n.switchLanguage('en')" class="active">EN</button>
+        <span>|</span>
+        <button data-lang="fr" onclick="i18n.switchLanguage('fr')">FR</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="project-detail">
+    <h2 data-i18n="project1_title">Project Overview (September 2023 to January 2024)</h2>
+    
+    <p data-i18n="project1_description">The Nutriboard Platform was developed to address the critical challenge of detecting patients that may be at risk of malnutrition. This digital solution enables healthcare professionals to track, monitor, and intervene in patients' nutritional status through a secure, cloud-hosted application.</p>
+    
+    <p data-i18n="project1_devops">As the DevOps engineer and backend developer on this project, I was responsible for designing a resilient infrastructure on Microsoft Azure that could handle sensitive patient data while ensuring high availability and compliance with healthcare regulations.</p>
+
+    <h3 data-i18n="technical_challenges">Technical Challenges & Solutions</h3>
+    <p data-i18n="technical_challenges_description">One of the primary challenges was creating a secure deployment pipeline that protected sensitive healthcare data while enabling rapid updates to the platform. I implemented:</p>
+    <ul>
+      <li data-i18n="multi_environment">A multi-environment architecture (development, staging, production) with appropriate isolation</li>
+      <li data-i18n="containerization">Containerized application using Docker to ensure consistency across environments</li>
+      <li data-i18n="secret_management">Secure secret management through GitHub Secrets, preventing exposure of credentials</li>
+      <li data-i18n="ci_cd">Automated CI/CD pipelines that included security scanning and compliance checks</li>
+    </ul>
+
+    <h3 data-i18n="technologies_used">Technologies Used</h3>
+    <ul>
+      <li data-i18n="cloud_infrastructure"><strong>Cloud Infrastructure:</strong> Microsoft Azure VMs</li>
+      <li data-i18n="backend_development"><strong>Backend Development:</strong> Java Spring Boot for creating RESTful APIs that interfaced with the nutritional database</li>
+      <li data-i18n="containerization"><strong>Containerization:</strong> Docker for packaging applications with consistent environments</li>
+      <li data-i18n="ci_cd"><strong>CI/CD:</strong> GitHub Actions workflows for automated testing, building, and deployment</li>
+      <li data-i18n="monitoring"><strong>Monitoring:</strong>Grafana dashboards for real-time system health and performance metrics</li>
+    </ul>
+
+    <h3 data-i18n="responsibilities">Responsibilities</h3>
+    <ul>
+      <li data-i18n="security_implementation"><strong>Security Implementation:</strong> Developed secure product delivery chain</li>
+      <li data-i18n="backend_development"><strong>Backend Development:</strong> Built Java microservices for data processing and integration with the frontend</li>
+      <li data-i18n="documentation"><strong>Documentation:</strong> Created detailed technical documentation and runbooks for operations</li>
+    </ul>
+
+    <h3 data-i18n="results">Results & Impact</h3>
+    <p data-i18n="results_description">The Nutriboard Platform successfully launched with zero security incidents and 99.9% uptime. The solution is now worked on by the client in order to add new features and improve the user experience before use.</p>
+    
+    <p data-i18n="results_impact">This project demonstrated my ability to implement DevOps best practices in a regulated healthcare environment while contributing to backend development in Java.</p>
+    <a href="../index.html" class="back-button">&larr; Back to Projects</a>
+  </main>
+
+  <footer>
+    <p data-i18n="footer_copyright">&copy; 2025 Darryl Jordan</p>
+  </footer>
+  <script src="../js/main.js"></script>
+  <script src="../js/i18n.js"></script>
+</body>
+</html>
